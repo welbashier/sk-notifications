@@ -28,18 +28,18 @@ This project implements a RabbitMQ consumer in a Spring Boot application that li
 1. Clone the repository:
    ```bash
    git clone https://github.com/welbashier/sk-notifications.git
-   cd sk-notifications
+   cd sk-notifications```
 
 2. Build the project using Maven:
-   ```mvn clean install
+   ```mvn clean install```
 
 3. Run the application:
-   ```mvn spring-boot:run
+   ```mvn spring-boot:run```
 
 ### Configuration
 To configure RabbitMQ, update the connection details in `src/main/resources/application.properties`:
   ```spring.rabbitmq.host=localhost
   spring.rabbitmq.port=5672
   spring.rabbitmq.username=guest
-  spring.rabbitmq.password=guest
+  spring.rabbitmq.password=guest```
 
